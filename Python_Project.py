@@ -24,7 +24,7 @@ def get_filters():
     print('\n Hello! Let\'s explore some US bikeshare data! \n')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city_filter = input("\n Would you like to see data for Chicago, New York City, or Washington? \n").title()
-    while city_filter != 'Chicago' and city_filter != 'New York City' and city_filter != 'Washington':
+    while city_filter not in ['Chicago', 'New York City', 'Washington']:
         city_filter = input("\n The name of the city is incorrect. Would you like to see data for Chicago, New York City, or Washington? \n").title()
 
     # TO DO: get user input for month (all, january, february, ... , june)
