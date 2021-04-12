@@ -4,10 +4,8 @@
 ### DATE CREATED
 "Sun March 28th, 2021."
 
-
 ### PROJECT TITLE
 Python_Proyect.py
-
 
 ### DESCRIPTION
 By computing a variety of descriptive statistics on databases of Chicago, New York City and Washington; the code provide the following information:
@@ -27,12 +25,10 @@ counts of each user type
 counts of each gender (only available for NYC and Chicago)
 earliest, most recent, most common year of birth (only available for NYC and Chicago)
 
-
 ### FILES USED
 chicago.csv
 new_york_city.csv
 washington.csv
-
 
 ### CREDITS
 Data provided by Motivate, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns.
